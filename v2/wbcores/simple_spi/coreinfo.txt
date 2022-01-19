@@ -1,0 +1,47 @@
+SPI core
+http://opencores.org/project,simple_spi
+
+changes:
+- removed sim, doc/src
+
+------
+
+Name: simple_spi
+Created: Dec 16, 2002
+Updated: Feb 2, 2011
+SVN Updated: Mar 13, 2009
+SVN: Browse
+Latest version: download
+Statistics: View
+
+Other project properties
+
+Category: Communication controller
+Language: Verilog
+Development status: Stable
+Additional info: Design done, FPGA proven
+WishBone Compliant: Yes
+License:
+
+Description
+
+Enhanced version of the Serial Peripheral Interface available on Motorola's MC68HC11 family of CPUs.Enhancements include a wider supported operating frequency range, 4deep read and write fifos, and programmable transfer count dependent interrupt generation.
+As with the SPI found in MC68HC11 processors the core features programmable clock phase (CPHA) and clock polarity (CPOL). The core features an 8bit wishbone interface.
+Very simple, very small.
+
+Features
+
+- Compatible with Motorola's SPI specifications
+- Enhanced Motorola MC68HC11 Serial Peripheral Interface
+- 4 entries deep read FIFO
+- 4 entries deep write FIFO
+- Interrupt generation after 1, 2, 3, or 4 transfered bytes
+- 8 bit WISHBONE RevB.3 Classic interface
+- Operates from a wide range of input clock frequencies
+- Static synchronous design
+- Fully synthesizable
+- 130LUTs in a Spartan-II, 230 LCELLs in an ACEX
+
+Status
+
+Design is finished and available in Verilog from OpenCores CVS.

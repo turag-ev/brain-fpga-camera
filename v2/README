@@ -1,0 +1,20 @@
+BCam v2
+--------
+
+Requirements:
+- Xilinx ISE (14.4 recommended)
+- ZTEX SDK (FWLoader, FX2 libraries)
+- lm32-gcc toolchain
+- FPGA board udev rule for your user
+
+Synthesize:
+- Open BananaCam2_ufm.xise in Xilinx ISE
+- Click on Toplevel file (BC2_top_ufm.v)
+- "Synthesize - XST"
+- Get a coffee
+
+Transfer to FPGA board:
+- % make prog
+
+Clean up:
+- In Xilinx ISE: Project -> Cleanup Project Files -> Ok

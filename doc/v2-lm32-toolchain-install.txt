@@ -1,0 +1,14 @@
+% git clone git://github.com/milkymist/scripts.git milkymist-scripts
+% cd milkymist-scripts
+
+edit compile-lm32-rtems/Makefile line 19 to your target path:
+RTEMS_PREFIX=/home/bob/local/rtems-$(RTEMS_VERSION)
+
+% make -C compile-lm32-rtems
+
+create symlinks from lm32-elf-* to lm32-rtems4.11-* in target bin dir:
+% cd ~/local/rtems-4.11/bin
+% for x in *; do ln -s "$x" "`echo $x | sed 's/rtems4.11/elf/g'`"; done
+
+add target bin dir to your PATH
+

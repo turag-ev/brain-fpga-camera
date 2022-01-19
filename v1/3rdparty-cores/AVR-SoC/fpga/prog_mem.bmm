@@ -1,0 +1,9 @@
+ADDRESS_SPACE prog_adr_space RAMB16 [0:8191]	
+	BUS_BLOCK
+		instSofti/instAVR/ProgMemInst/BRamInst1 [7:4];
+		instSofti/instAVR/ProgMemInst/BRamInst0 [3:0];
+		instSofti/instAVR/ProgMemInst/BRamInst3 [15:12];
+		instSofti/instAVR/ProgMemInst/BRamInst2 [11:8];
+	END_BUS_BLOCK;
+END_ADDRESS_SPACE;
+

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="/home/bob/code/BCam/lm32_test_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="lm32_test" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="4" />
+   <wvobject fp_name="/lm32_test/sys_clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">sys_clk</obj_property>
+      <obj_property name="ObjectShortName">sys_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lm32_test/sys_rst" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">sys_rst</obj_property>
+      <obj_property name="ObjectShortName">sys_rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="group60" type="group">
+      <obj_property name="label">IBUS</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/lm32_test/I_CYC_O" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">I_CYC_O</obj_property>
+         <obj_property name="ObjectShortName">I_CYC_O</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#00ffff</obj_property>
+      </wvobject>
+      <wvobject fp_name="/lm32_test/I_STB_O" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">I_STB_O</obj_property>
+         <obj_property name="ObjectShortName">I_STB_O</obj_property>
+      </wvobject>
+      <wvobject fp_name="/lm32_test/I_WE_O" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">I_WE_O</obj_property>
+         <obj_property name="ObjectShortName">I_WE_O</obj_property>
+      </wvobject>
+      <wvobject fp_name="/lm32_test/I_ACK_I" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">I_ACK_I</obj_property>
+         <obj_property name="ObjectShortName">I_ACK_I</obj_property>
+      </wvobject>
+      <wvobject fp_name="/lm32_test/I_ADR_O" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">I_ADR_O[31:0]</obj_property>
+         <obj_property name="ObjectShortName">I_ADR_O[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#ffa500</obj_property>
+      </wvobject>
+      <wvobject fp_name="/lm32_test/I_DAT_O" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">I_DAT_O[31:0]</obj_property>
+         <obj_property name="ObjectShortName">I_DAT_O[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/lm32_test/I_DAT_I" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">I_DAT_I[31:0]</obj_property>
+         <obj_property name="ObjectShortName">I_DAT_I[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="group59" type="group">
+         <obj_property name="label">Optional</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/lm32_test/I_SEL_O" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">I_SEL_O[3:0]</obj_property>
+            <obj_property name="ObjectShortName">I_SEL_O[3:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/lm32_test/I_CTI_O" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">I_CTI_O[2:0]</obj_property>
+            <obj_property name="ObjectShortName">I_CTI_O[2:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/lm32_test/I_BTE_O" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">I_BTE_O[1:0]</obj_property>
+            <obj_property name="ObjectShortName">I_BTE_O[1:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/lm32_test/I_ERR_I" type="logic" db_ref_id="1">
+            <obj_property name="ElementShortName">I_ERR_I</obj_property>
+            <obj_property name="ObjectShortName">I_ERR_I</obj_property>
+         </wvobject>
+         <wvobject fp_name="/lm32_test/I_RTY_I" type="logic" db_ref_id="1">
+            <obj_property name="ElementShortName">I_RTY_I</obj_property>
+            <obj_property name="ObjectShortName">I_RTY_I</obj_property>
+         </wvobject>
+         <wvobject fp_name="/lm32_test/I_LOCK_O" type="logic" db_ref_id="1">
+            <obj_property name="ElementShortName">I_LOCK_O</obj_property>
+            <obj_property name="ObjectShortName">I_LOCK_O</obj_property>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group62" type="group">
+      <obj_property name="label">DBUS</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/lm32_test/D_CYC_O" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">D_CYC_O</obj_property>
+         <obj_property name="ObjectShortName">D_CYC_O</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#00ffff</obj_property>
+      </wvobject>
+      <wvobject fp_name="/lm32_test/D_STB_O" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">D_STB_O</obj_property>
+         <obj_property name="ObjectShortName">D_STB_O</obj_property>
+      </wvobject>
+      <wvobject fp_name="/lm32_test/D_WE_O" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">D_WE_O</obj_property>
+         <obj_property name="ObjectShortName">D_WE_O</obj_property>
+      </wvobject>
+      <wvobject fp_name="/lm32_test/D_ACK_I" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">D_ACK_I</obj_property>
+         <obj_property name="ObjectShortName">D_ACK_I</obj_property>
+      </wvobject>
+      <wvobject fp_name="/lm32_test/D_ADR_O" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">D_ADR_O[31:0]</obj_property>
+         <obj_property name="ObjectShortName">D_ADR_O[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#ffa500</obj_property>
+      </wvobject>
+      <wvobject fp_name="/lm32_test/D_DAT_O" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">D_DAT_O[31:0]</obj_property>
+         <obj_property name="ObjectShortName">D_DAT_O[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/lm32_test/D_DAT_I" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">D_DAT_I[31:0]</obj_property>
+         <obj_property name="ObjectShortName">D_DAT_I[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="group61" type="group">
+         <obj_property name="label">Optional</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/lm32_test/D_SEL_O" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">D_SEL_O[3:0]</obj_property>
+            <obj_property name="ObjectShortName">D_SEL_O[3:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/lm32_test/D_CTI_O" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">D_CTI_O[2:0]</obj_property>
+            <obj_property name="ObjectShortName">D_CTI_O[2:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/lm32_test/D_BTE_O" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">D_BTE_O[1:0]</obj_property>
+            <obj_property name="ObjectShortName">D_BTE_O[1:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/lm32_test/D_ERR_I" type="logic" db_ref_id="1">
+            <obj_property name="ElementShortName">D_ERR_I</obj_property>
+            <obj_property name="ObjectShortName">D_ERR_I</obj_property>
+         </wvobject>
+         <wvobject fp_name="/lm32_test/D_RTY_I" type="logic" db_ref_id="1">
+            <obj_property name="ElementShortName">D_RTY_I</obj_property>
+            <obj_property name="ObjectShortName">D_RTY_I</obj_property>
+         </wvobject>
+         <wvobject fp_name="/lm32_test/D_LOCK_O" type="logic" db_ref_id="1">
+            <obj_property name="ElementShortName">D_LOCK_O</obj_property>
+            <obj_property name="ObjectShortName">D_LOCK_O</obj_property>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+</wave_config>

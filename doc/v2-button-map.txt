@@ -1,0 +1,9 @@
+(outer edge of PCB)
+____________
+(o) Button 0	=> sys_rst	resets everything connected to wishbone bus
+(o) Button 1
+(o) Button 2
+(o) Button 3
+____________
+(FPGA Module)
+

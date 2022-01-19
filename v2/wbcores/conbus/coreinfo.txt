@@ -1,0 +1,8 @@
+conbus5x6 from milkymist
+https://github.com/milkymist/milkymist.git
+copied from cores/conbus
+
+------
+
+milkymist git 95a82041432f573319c9fa7fc57b0ac15243948f
+Mon Jun 4 00:17:04 2012 +0200

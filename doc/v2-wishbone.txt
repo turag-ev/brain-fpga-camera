@@ -1,0 +1,19 @@
+BCam v2 System Bus
+
+Wishbone Bus
+Masters:
+|-> FXLink      (USB -> PC)
+|-> lm32 ibus   (Softcore CPU)
+|-> lm32 dbus
+|-> SDCARD DMA  (SD controller DMA master)
+Slaves:
+|-> RAM1        (Block RAM, few kB, lm32 Bootloader)
+|-> RAM2        (DDR RAM, 64 MB, lm32 System + working area)
+|-> CAN         (Robot Backplane CAN Bus)
+|-> SPI         (AT91SAM7 coprocessor)
+|-> I2C         (Camera control)
+|-> GPIO        (8 LED, 4 switches, 2 coprocessor signals, PWM: LED headlights)
+|-> VGA		(VGA image output)
+|-> SDCARD      (SD controller configuration)
+|-> MTCam       (Camera data grabber configuration)
+|-> ImgProc     (Image Processor configuration)

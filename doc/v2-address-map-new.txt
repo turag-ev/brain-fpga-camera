@@ -1,0 +1,22 @@
+Wishbone address map
+
+Bit 31 is ignored for slave address decoding (for shadow mapping).
+
+<name>       <start address>
+
+=> Bit 30 = 0:
+bootram      0x00000000 (shadow @0x80000000)
+ddrram       0x10000000 (shadow @0x90000000)
+-            0x20000000 (shadow @0xa0000000)
+-            0x30000000 ... etc ...
+
+=> Bit 30:28 = 111:
+can0         0x70010000
+spi0         0x70020000
+i2c0         0x70030000
+sd0          0x70040000
+gpio0        0x70050000
+timer0       0x70060000
+mtcam0       0x70070000
+imgproc0     0x70080000
+

@@ -1,0 +1,20 @@
+=== Settings for the i2c module ===
+
+== 3.2.1 Prescale Register ==
+
+25 MHz I2C module clock.
+100 kHz I2C clock.
+
+25*10^6/(5*100*10^3)-1
+49
+
+-> hex 0x0031
+-> PRERlo <= 0x31
+-> PRERhi <= 0x00
+
+== 3.2.2 Control register ==
+
+CTR(0x02) <= 0xc0
+
+
+

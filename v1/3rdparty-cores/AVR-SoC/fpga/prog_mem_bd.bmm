@@ -1,0 +1,21 @@
+// BMM LOC annotation file.
+//
+// Release 13.4 - (null) O.87xd, build 2.7 Nov 11, 2011
+// Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+
+///////////////////////////////////////////////////////////////////////////////
+//
+// Address space 'prog_adr_space' 0x00000000:0x00001FFF (8 KBytes).
+//
+///////////////////////////////////////////////////////////////////////////////
+
+ADDRESS_SPACE prog_adr_space RAMB16 [0x00000000:0x00001FFF]
+    BUS_BLOCK
+        instSofti/instAVR/ProgMemInst/BRamInst1 RAMB16 [7:4] [0:4095] PLACED = X0Y4;
+        instSofti/instAVR/ProgMemInst/BRamInst0 RAMB16 [3:0] [0:4095] PLACED = X0Y0;
+        instSofti/instAVR/ProgMemInst/BRamInst3 RAMB16 [15:12] [0:4095] PLACED = X0Y2;
+        instSofti/instAVR/ProgMemInst/BRamInst2 RAMB16 [11:8] [0:4095] PLACED = X1Y0;
+    END_BUS_BLOCK;
+END_ADDRESS_SPACE;
+

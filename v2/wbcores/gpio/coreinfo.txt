@@ -1,0 +1,12 @@
+Wishbone General Pupose IO Component
+http://www.das-labor.org/svn/fpga/farbborg/rtl/wb_gpio/wb_gpio.v
+
+changes:
+- added PWM support
+
+---
+Note from the year 2021: This core can't be included here due to its license.
+You can get it from https://github.com/jbornschein/farbborg though and copy wb_gpio.v to the ./rtl directory.
+Our changes to that file can't be published, sorry.
+
+The ledpwm code is licensed under GPLv3.

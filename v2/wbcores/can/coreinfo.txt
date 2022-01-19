@@ -1,0 +1,62 @@
+CAN Protocol Controller
+http://opencores.org/project,can
+
+changes:
+- added doc/CAN.gif from web
+- added rtl/vhdl/s6legacyram.vhd to replace outdated Xilinx BRAM primitives in can_fifo.v
+- removed syn, sim
+
+------
+
+Name: can
+Created: Feb 11, 2003
+Updated: Apr 27, 2012
+SVN Updated: Mar 10, 2009
+SVN: Browse
+Latest version: download
+Statistics: View
+
+Other project properties
+
+Category: Communication controller
+Language:
+Development status: Stable
+Additional info: none
+WishBone Compliant: Yes
+License:
+
+Description
+
+Controller Area Network or CAN is a control network protocol from
+Bosch that has found wide use in Industrial Automation and the
+Automotive Industry.
+
+Most of the patents of CAN are owned by Bosch and although there
+are no restictions on developing an opensource CAN IP but for any
+commercial use the protocol license from Bosch is an indispensable prerequisite.
+
+Size is approximately 12k gates (930 flip-flops).
+
+Block Diagram
+
+IMAGE: CAN.gif
+
+FILE: CAN.gif
+DESCRIPTION:
+Features
+
+- Non-Destructive bit-wise arbitration (CSMA/CA)
+- Message Based Addressing/Filtering
+- Broadcast Communication
+- 1 Mbit/Sec Operation
+- WISHBONE SoC interface
+- 8051 interface
+- SJA1000 (Philips) compatible interface.
+
+Status
+
+- Verilog version finished (tested in HW and verified with the Bosch VHDL Reference System) (October, 27, 2004)
+
+Verilog version
+
+- Verilog version can be found here.

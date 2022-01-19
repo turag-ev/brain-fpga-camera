@@ -1,0 +1,2 @@
+-- Note from the year 2021: This code can't be included here due to its license.
+-- You can get it from http://www.mikrocontroller.net/topic/240367#2446212 though and paste it below.

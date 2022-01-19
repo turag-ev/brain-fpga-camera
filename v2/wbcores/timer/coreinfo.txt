@@ -1,0 +1,6 @@
+Wishbone Timer
+http://www.das-labor.org/svn/fpga/farbborg/rtl/wb_timer/wb_timer.v
+
+---
+Note from the year 2021: This core can't be included here due to its license.
+You can get it from https://github.com/jbornschein/farbborg though and copy wb_timer.v to the ./rtl directory.
